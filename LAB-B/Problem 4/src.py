@@ -18,6 +18,8 @@ def prime_happy_overlapping():
             overlapping_numbers.append(prime)
             output_file.write(prime)
     output_file.close()
+    happy_numbers_file.close()
+    prime_numbers_file.close()
     return overlapping_numbers
 def validate_overlapping(number):
     overlapping_numbers=prime_happy_overlapping()
