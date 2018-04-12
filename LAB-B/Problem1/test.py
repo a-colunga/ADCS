@@ -36,6 +36,7 @@ class TestUM(unittest.TestCase):
     	f = open('primenumbers.txt', 'r')
     	for line in f:
     		self.assertEqual( isPrime(int(line)), 'prime number' )
+		f.close()
     		
     def test_non_primes(self):
     	for n in range(2,50):
