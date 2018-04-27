@@ -4,7 +4,6 @@ from src import isOddOrEven
 from src import isMultiple
 from src import isPrime
 
-
 class TestUM(unittest.TestCase):
  
     def setUp(self):
