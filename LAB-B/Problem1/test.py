@@ -43,5 +43,6 @@ class TestUM(unittest.TestCase):
     	for n in range(2,50):
     		self.assertEqual( isPrime(n*n), 'not a prime number')
  
+ 
 if __name__ == '__main__':
     unittest.main()
